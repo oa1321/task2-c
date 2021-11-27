@@ -50,5 +50,6 @@ int main(){
         }
         scanf("%c" , &op);
     }
+    printf("\n");
 return 0;
 }
