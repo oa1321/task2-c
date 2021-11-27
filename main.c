@@ -19,7 +19,7 @@ void b_func(int arr[10][10]){
     scanf("%d" , &num1);
     scanf("%d" , &num2);
     const char* is_co = is_connected(arr, num1, num2);
-    printf("%s \n", is_co);
+    printf("%s\n", is_co);
 }
 
 
@@ -30,7 +30,7 @@ void c_func(int arr[10][10]){
     scanf("%d" , &num1);
     scanf("%d" , &num2);
     path = smallest(arr, num1, num2);
-    printf("%d \n", path);
+    printf("%d\n", path);
 }
 
 
@@ -50,6 +50,5 @@ int main(){
         }
         scanf("%c" , &op);
     }
-    printf("\n");
 return 0;
 }
